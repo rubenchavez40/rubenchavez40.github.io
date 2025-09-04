@@ -10,7 +10,7 @@ labels:
   - JavaScript
   - Software Engineering
 ---
-<img width="400px" class="rounded float-start pe-4" src="../img/Typescript_logo_2020.svg.png">
+<img width="300px" class="rounded float-start pe-4" src="../img/Typescript_logo_2020.svg.png">
 *Working with TypeScript as a beginner; not as scary as it seems?*
 
 We all start somewhere in all aspects of life. From taking your first steps, to the first wordle you ever completed, and in my case, your first experience learning and coding in TypeScript. Quite frankly, I was a bit intimidated with learning a new programming language in the first week of my software engineering course, but after completeting rigorous and rather tedious FreeCodeCamp and W3 practice courses for JavaScript and subsequently TypeScript, I can say that this was the easiest and most enjoyable experience using a new programming language yet. 
