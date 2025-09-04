@@ -1,9 +1,9 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/1209397.jpg
 title: "Anthology"
-date: 2024
+date: 2024-09-03
 published: true
 labels:
   - English
