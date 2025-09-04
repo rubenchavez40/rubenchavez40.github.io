@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "myInitialExperiencewithTypeScript()"
+title: "myInitialExperienceWithTypeScript()"
 # All dates must be YYYY-MM-DD format!
 date: 2025-09-03
 published: true
