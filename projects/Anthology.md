@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: img/1209397.jpg
-title: "Anthology"
+title: "anthology"
 date: 2024-09-03
 published: true
 labels:
