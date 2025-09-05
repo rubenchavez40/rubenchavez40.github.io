@@ -1,15 +1,16 @@
-{% if include.name == "email" %}
-  <a href="mailto:{{ include.label }}">
-    <svg class="tf-social">
+<a href="{{ profile.url }}"{% if profile.network != "email" %} target="_blank"{% endif %}>
+  <svg class="tf-social">
+    {% if profile.network == "email" %}
       <use xlink:href="{{ '/img/bootstrap-icons.svg' | prepend: site.baseurl }}#envelope"/>
-    </svg>
-    <span>{{ include.label }}</span>
-  </a>
-{% else %}
-  <a href="{{ include.url }}" target="_blank">
-    <svg class="tf-social">
-      <use xlink:href="{{ '/img/bootstrap-icons.svg' | prepend: site.baseurl }}#{{- include.name -}}"/>
-    </svg>
-    <span>{{ include.label }}</span>
-  </a>
-{% endif %}
+    {% else %}
+      <use xlink:href="{{ '/img/bootstrap-icons.svg' | prepend: site.baseurl }}#{{ profile.network }}"/>
+    {% endif %}
+  </svg>
+  <span>
+    {% if profile.network == "email" %}
+      {{ profile.username }}
+    {% else %}
+      {{ profile.username }}
+    {% endif %}
+  </span>
+</a>
