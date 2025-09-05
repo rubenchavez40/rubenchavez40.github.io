@@ -2,13 +2,12 @@
 layout: project
 type: project
 image: Poker.png
-title: "poker helper"
+title: "Poker Betting Strategist"
 date: 2024-09-03
 published: true
 labels:
-  - English
-  - Writing
-  - Literature
+  - C
+  - Programming
 summary: "A personal anthology of my works in the English 100 course I took at UH Manoa, and how it evolved and refined my writing."
 ---
 
