@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/Poker.png
+image: img/P\report-card.png
 title: "Poker Betting Strategist"
 date: 2024-09-03
 published: true
