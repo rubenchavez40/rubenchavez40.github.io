@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: Poker.png
-title: "anthology"
+title: "poker helper"
 date: 2024-09-03
 published: true
 labels:
