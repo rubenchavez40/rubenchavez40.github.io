@@ -12,7 +12,7 @@
         <p class="lead m-0">
           Interests:
           {% for interest in site.data.bio.interests %}
-          {{ interest.name }}{% if forloop.last != true %}, {% endif %}
+            {{ interest.name }}{% if forloop.last != true %}, {% endif %}
           {% endfor %}
         </p>
         <hr class="my-4">
@@ -25,11 +25,12 @@
             </div>
           {% endif %}
 
-         {% if site.data.bio.basics.email %}
-  <div class="col text-center">
-    {% include about/social.html url="mailto:{{ site.data.bio.basics.email }}" name="envelope" label=site.data.bio.basics.email %}
-  </div>
-{% endif %}
+          {% if site.data.bio.basics.email %}
+            {% capture mailurl %}mailto:{{ site.data.bio.basics.email }}{% endcapture %}
+            <div class="col text-center">
+              {% include about/social.html url=mailurl name="envelope" label=site.data.bio.basics.email %}
+            </div>
+          {% endif %}
 
           {% for profile in site.data.bio.basics.profiles %}
             {% capture url %}{{ profile.url }}{% endcapture %}
