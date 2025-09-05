@@ -3,14 +3,14 @@
     "name": "Ruben Chavez",
     "label": "Student",
     "picture": "https://github.com/rubenchavez40.png",
-    "email": "rubenhchavez@gmail.com",
+    "email": "rubenhchavez2240@gmail.com",
     "phone": "719-460-1878",
     "website": "https://rubenchavez40.github.io",
     "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2027.",
     "location": { "address": "", "postalCode": "96706", "city": "Ewa Beach", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "rubenchavez40", "url": "http://github.com/rubenchavez40" },
-      { "network": "linkedin", "username": "rubenhchavez", "url": "https://www.linkedin.com/in/rubenhchavez" },
+      { "network": "linkedin", "username": "rubenhchavez", "url": "https://www.linkedin.com/in/rubenhchavez" }
     ]
   },
   "interests": [
