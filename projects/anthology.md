@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/1209397.jpg
 title: "Anthology"
-date: 2024-09-03
+date: 2024-12-03
 published: true
 labels:
   - English
