@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: Screenshot 2025-09-04 210044.png
+image: Poker.png
 title: "anthology"
 date: 2024-09-03
 published: true
