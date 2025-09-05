@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/Poker.png
 title: "Poker Betting Strategist"
-date: 2024-09-03
+date: 2024-09-26
 published: true
 labels:
   - C
