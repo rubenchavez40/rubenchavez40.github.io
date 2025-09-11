@@ -1,10 +1,10 @@
 ---
 layout: essay
 type: essay
-title: "Smart Questions, Good Answers"
+title: "Smart Questions and Smart Takeaways"
 # All dates must be YYYY-MM-DD format!
-date: 2015-09-08
-published: false
+date: 2025-09-10
+published: true
 labels:
   - Questions
   - Answers
@@ -13,73 +13,32 @@ labels:
 
 <img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
 
-## Is there such thing as a stupid question?
+## Think before you speak
 
-I’ve had instructors address a whole class and say, “There’s no such thing as a stupid question.” I now know that is in fact not true because I’ve challenged the statement and received the appropriate dumb-stricken, annoyed look. There are definitely stupid questions, and along with that, usually unhelpful answers. Though we all might be guilty of being callous and making people victim to our poorly formed questions, there are steps we can take to ask smarter questions that hopefully don’t illicit the dreaded “rtfm” or “stfw” response.
+A common phrase I got a few too many times growing up was "think before you speak next time". It's a good motto to remember in general, but especially applicable for the concept of asking questions the "smart way". Now in the world of software engineering it's a bit more complex than just thinking for a few biref moments before saying something outloud, but the same general principle applies. What you say matters, and you want to get the most bang for your buck when you ask anything in a complicated and highly technical field. Every new piece of information, help, and guidance is ever so crucial. So how do we get the most out of our questions?   
 
-## What’s a smart question?
+## Getting good ROQ (return on question) 
 
-Stack Overflow, a question and answer site for programmers, is a great resource for anyone who may have issues with code or who may simply want to learn new or different methods of doing something. There I found examples of good questions and bad questions, which could probably be improved.
-
-In the following example, we examine the components of a decent question. In this case, the asker is trying to figure out a way to get the date of the previous month in Python.
+You like that double entendre? Get it, "return" and the ROI reference? Eh? Anyway, a good place to look how other software engineers are asking their questions is on the site 'Stack Overflow". Although it is clear that not all questions are equal, there are several key aspects of what makes a question worth your precious time of typing away. In the following example, we can observe the makings of a quesiton asked the "smart way". Below, we can see a user on Stack Overflow asking how to convert a string to boolean in JavaScript.
 
 ```
-Q: python date of the previous month
+Q: How can I convert a string to boolean in JavaScript?
 
-I am trying to get the date of the previous month with python. Here is what i've tried:
+Can I convert a string representing a boolean value (e.g., 'true', 'false') into an intrinsic type in JavaScript?
 
-str( time.strftime('%Y') ) + str( int(time.strftime('%m'))-1 )
+I have a hidden form in HTML that is updated based on a user's selection within a list. This form contains some fields which represent boolean values and are dynamically populated with an intrinsic boolean value. However, once this value is placed into the hidden input field it becomes a string.
 
-However, this way is bad for 2 reasons: First it returns 20122 for the February of 2012 (instead of 201202) 
-and secondly it will return 0 instead of 12 on January.
+The only way I could find to determine the field's boolean value, once it was converted into a string, was to depend upon the literal value of its string representation.
 
-I have solved this trouble in bash with:
-
-echo $(date -d"3 month ago" "+%G%m%d")
-
-I think that if bash has a built-in way for this purpose, then python, much more equipped, should provide something 
-better than forcing writing one's own script to achieve this goal. Of course i could do something like:
-
-if int(time.strftime('%m')) == 1:
-    return '12'
-else:
-    if int(time.strftime('%m')) < 10:
-        return '0'+str(time.strftime('%m')-1)
-    else:
-        return str(time.strftime('%m') -1)
-        
-I have not tested this code and i don't want to use it anyway (unless I can't find any other way:/)
-
-Thanks for your help!
+var myValue = document.myForm.IS_TRUE.value;
+var isTrueSet = myValue == 'true';
+Is there a better way to accomplish this?
 ```
+Going through a quick checklist, first, the heading of the question is clear and specific to the subject of the question. It's tagged in the proper categories such as "javascript", "boolean-operations", and "string-conversion" which all directly correlate to the question. Not only did the user give a concise and straightforward question, they also gave context to their situation/project and even shows an example of what they've tried and described the result they got in an attempt to find a better method of choice. Lastly, the user could've shown more courtesy in their original question or in the replies to help encourage community answers, but that's on the nitpickier side of things.
 
-While the heading of his question could be better, it does convey what he’s trying to figure out. Usually something as brief as “python date of previous month” is what other users would enter in as search terms on Google, making it easily found. Another good thing about the question is that it’s not just a question. The asker shows what he or she has done and that he or she has put in some effort to answer the question. And while it may not be as important as the question itself, the asker shows courtesy, which does increase the chance of getting an answer.
+## For there to be good, there must be bad.
 
-```
-A: datetime and the datetime.timedelta classes are your friend.
-
-1. find today
-2. use that to find the first day of this month.
-3. use timedelta to backup a single day, to the last day of the previous month.
-4. print the YYYYMM string you're looking for.
-
-Like this:
-
- >>> import datetime
- >>> today = datetime.date.today()
- >>> first = datetime.date(day=1, month=today.month, year=today.year)
- >>> lastMonth = first - datetime.timedelta(days=1)
- >>> print lastMonth.strftime("%Y%m")
- 201202
- >>>
-
-```
- 
-The asker received six possible answers, and he or she was successful in inciting discussion from multiple users. The answers themselves were clear and were devoid of the rumored sarcasm and hostility of “hackers.” Since I myself have referenced this page and found it useful, I can confidently say that it is a good question.
-
-## The foolproof way to get ignored.
-
-While there are decent questions that benefit everyone, there are those one can ask to create an entirely different effect. In the following example, a user asks how he would, in short, create a desktop application with Facebook.
+Like I mentioned earlier, not all questions are created equal. Not so "smart" questions can be labeled as such for a variety of factors. Obviously, anything to the opposite effect of what was mentioned in the "smart" question would be some telltale signs. However, this next question presents an entirely new set of issues that may cause an unintended and frankly unwanted answer that make the question itself... questionable. Ha ha... ha... ha?
 
 ```
 Q: Facebook Desktop Notifier
@@ -89,7 +48,7 @@ I am a beginner programmer that have never used anything other than what's inclu
 I am trying to create a desktop application that notifies me anytime I get an update onfacebook. 
 How should go about doing this? Thanks in advance.
 
-edit Sorry I was not clear. Is there any way to make a DESKTOP application with facebook?
+edit Sorry I was not clear. Is there any way to make a DESKTOP application with facebook
 ```
 
 A simple “yes” would have answered the question, but we know that’s not the sort of answer he or she is looking for. Fortunately, someone kindly responded with a link to Facebook’s developer website. The asker should have done more research on his or her potential project. Then further down the road, he or she could have asked more specific and detailed questions that wouldn’t require a thousand-paged response for a sufficient answer.
