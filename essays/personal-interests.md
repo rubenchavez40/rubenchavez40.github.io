@@ -11,7 +11,7 @@ labels:
   - Data
 ---
 
-<img width="100px" class="rounded float-start pe-4" src="Fantasy-Football-Rosters-Lineups.jpg">
+<img width="100px" class="rounded float-start pe-4" src="/img/Fantasy-Football-Rosters-Lineups.jpg">
 
 Software engineering is not for the faint of heart or brain power. It requires dynamic and critical thinking skills, the ability to grasp concepts quickly, and risking your eyesight if you choose to spend countless hours on programming without blue-light glasses. Not trying to make this essay sound more like an advertisement, but seriously, they're a great investment. When I first heard of this general briefing about entering the field, I was intimidated. However, I met a reality of my situation and the life that lies ahead of me. Either choose to pursue something that'll be incredibly time-consuming, mentally taxing, and overall simply a lot of hard work, or something a lot easier with the catch that a less-than-ideal future financial situation awaits. I chose the first option, although the choice as to what "hard" major I'd study in to start this journey was a whole other process in itself. 
 
