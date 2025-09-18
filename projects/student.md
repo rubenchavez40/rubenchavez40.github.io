@@ -8,7 +8,7 @@ published: true
 labels:
   - C
   - Programming
-summary: "I created a porgram to help teacher's manage their students and their records"
+summary: "I created a program to help teacher's manage their students and their records"
 ---
   The Students Records Editor is a C program that allows the user to view and edit a set of data which are student records. This data is stored in a separate file titled students.data. Running this program, it immediately displays all the student records and allows any fields of the records to be modified. However, for modification, the program ensures only the fields the user specifies they want to change will be edited.  
 
