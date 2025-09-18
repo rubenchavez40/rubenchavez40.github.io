@@ -13,8 +13,6 @@ labels:
 
 <img width="300px" class="rounded float-start pe-4" src="../img/OIP.png">
 
-## Think before you speak
-
 A common phrase I got a few too many times growing up was "think before you speak next time." It's a good motto to remember in general, but especially applicable for the concept of asking questions the "smart way." Now, in the world of software engineering, it's a bit more complex than just thinking for a few brief moments before saying something out loud, but the same general principle applies. What you say matters, and you want to get the most bang for your buck when you ask anything in a complicated and highly technical field. Every new piece of information, help, and guidance is ever so crucial. So, how do we get the most out of our questions? 
 
 ## Getting good ROQ (return on question) 
