@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "The difficult things will always be difficult"
+title: "Can You Stand Coding Standards?"
 # All dates must be YYYY-MM-DD format!
 date: 2025-09-24
 published: true
