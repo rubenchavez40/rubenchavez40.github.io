@@ -10,7 +10,7 @@ labels:
   - CSS
   - Bootstrap 5
 ---
-<img width="300px" class="rounded float-start pe-4" src="../img/braddahman.png">
+<img width="300px" class="rounded float-start pe-4" src="../img/braddahmancopy.png">
 *If HTML and CSS was like building a house, Bootstrap is like playing the sims*
 
 From construction site to sandbox, UI frameworks give you every template you need to create beautiful web pages. UI frameworks such as the one I have recently learned about, Bootstrap, are in fact complicated and can take lots of time and energy to use effectively and efficiently. That being said, they exist for a reason, convenience. After gaining familiarity and experience with a UI framewok, developers can streamline their webpage development while still having a wide variety of options from creative and colorful, to boring and mundane, to everywhere in between. 
