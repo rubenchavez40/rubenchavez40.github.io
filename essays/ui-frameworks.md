@@ -18,7 +18,7 @@ From construction site to sandbox, UI frameworks give you every template you nee
 ## Training Arc
 
 Trivially, in order to build proficiency at Bootstrap I had to of course get some practice. At the moment I first attempted to use Bootstrap, my most relevant experience had been about a week of learning and developing in raw HTML and CSS. The first noticeable advantage to Bootstrap was how much less code was needed to build something like a navigation bar. Because of Bootstrap's template style for specific webpage.
-<img width="300px" class="rounded float-start pe-4" src="../img/foenem.png">
+<img width="300px" class="rounded float-start pe-4" src="../img/brahhhdah.png">
 To build the same navigation bar in raw HTML and CSS, it would require far more lines of code and overall more work, time, and effort.
 
 ## So... Is it Worth it?
