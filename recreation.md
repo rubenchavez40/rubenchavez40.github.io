@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/recreate.jpg
 title: "Website Recreation"
 date: 10/14/2025
 published: false
