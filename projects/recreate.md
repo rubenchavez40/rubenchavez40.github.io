@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/recreate.jpg
 title: "Website Recreation"
-date: 10/14/2025
+date: 2025-10-14
 published: true
 labels:
   - HTML
