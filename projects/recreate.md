@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/recreate.jpg
+image: /img/recreate.jpg
 title: "Website Recreation"
 date: 2025-10-14
 published: true
