@@ -13,9 +13,7 @@ labels:
 summary: "I developed a skelton recreation of part of the Dallas Cowboys' official website"
 ---
 
-<div align="center">
   <img src="/img/recreate.jpg" alt="Website recreation preview" width="200" />
-</div>
 
 This project was a personal project where in my software engineering course we were prompted to recreate a skeleton of a website of our choice. As an NFL and Dallas Cowboys fan (don't pull any punches, I know) I chose their official website as my source to recreate. 
 
