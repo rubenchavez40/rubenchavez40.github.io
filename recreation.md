@@ -23,7 +23,7 @@ This project was a personal project where in my software engineering course we w
 This project was developed using the Bootstrap 5 framework using react and I plan to update this project progressively to further match the functionality of the actual site.
 
 <div align="center">
-  <img src="img/officalsite.png" alt="Official site screenshot" width="200" />
+  <img src="img/officialsite.png" alt="Official site screenshot" width="200" />
   <img src="img/recreation-2.png" alt="Recreation screenshot" width="200" />
 </div>
 
