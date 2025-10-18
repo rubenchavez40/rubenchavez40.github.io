@@ -23,7 +23,7 @@ This project was a personal project where in my software engineering course we w
 This project was developed using the Bootstrap 5 framework using react and I plan to update this project progressively to further match the functionality of the actual site.
 
 <div class="text-center p-4">
-  <img width="200px" src="../img/recreate.jpg" class="img-thumbnail" >
-    <img width="200px" src="../img/recreate.jpg" class="img-thumbnail" >
+  <img width="200px" src="../img/officalsite.png" class="img-thumbnail" >
+    <img width="200px" src="../img/recreation-2.png" class="img-thumbnail" >
 </div>
 
