@@ -4,7 +4,7 @@ type: project
 image: img/recreate.jpg
 title: "Website Recreation"
 date: 10/14/2025
-published: false
+published: true
 labels:
   - HTML
   - CSS
